@@ -8,8 +8,7 @@ type: Index
 position: Consumer
 access: 3rd-Party
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-tags:
-  - API
+tags: []
 created: '2025-01-08'
 modified: '2026-03-16'
 url: https://raw.githubusercontent.com/api-evangelist/oclc/refs/heads/main/apis.yml
@@ -23,8 +22,7 @@ apis:
       by your library and ...
     humanURL: >-
       https://www.oclc.org/developer/api/oclc-apis/worldcat-discovery-api.en.html
-    tags:
-      - API
+    tags: []
     properties:
       - type: Documentation
         url: >-
