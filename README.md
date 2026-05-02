@@ -6,17 +6,17 @@ The Discovery API allows you to surface both WorldCat and WorldCat Discovery cen
 ## Scope
 
 - **Type:** Index 
-- **Position:** Consuming 
+- **Position:** Consumer 
 - **Access:** 3rd-Party 
 
 ## Tags:
 
- - API
+ - Library, WorldCat, Discovery, Bibliographic
 
 ## Timestamps
 
 - **Created:** 2025-01-08 
-- **Modified:** 2026-03-16 
+- **Modified:** 2026-04-28 
 
 ## APIs
 
@@ -28,7 +28,7 @@ The Discovery API allows you to surface both WorldCat and WorldCat Discovery cen
 
 #### Tags:
 
- - API
+ - Library, WorldCat, Discovery
 
 #### Properties
 
