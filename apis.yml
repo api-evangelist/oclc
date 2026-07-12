@@ -18,8 +18,12 @@ modified: '2026-04-28'
 url: https://raw.githubusercontent.com/api-evangelist/oclc/refs/heads/main/apis.yml
 specificationVersion: '0.19'
 common:
+  - type: DomainSecurity
+    url: security/oclc-domain-security.yml
   - type: LinkedIn
     url: https://www.linkedin.com/company/oclc
+  - type: Blog
+    url: https://www.oclc.org/en/news.html
 apis:
   - aid: oclc:oclc
     name: OCLC
