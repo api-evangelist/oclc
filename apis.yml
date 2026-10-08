@@ -39,6 +39,12 @@ modified: '2026-09-16'
 url: https://raw.githubusercontent.com/api-evangelist/oclc/refs/heads/main/apis.yml
 specificationVersion: '0.23'
 common:
+- type: Plans
+  url: plans/oclc-plans-pricing.yml
+- type: RateLimits
+  url: rate-limits/oclc-rate-limits.yml
+- type: FinOps
+  url: finops/oclc-finops.yml
 - type: Website
   url: https://oclc.org
 - type: DomainSecurity
