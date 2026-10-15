@@ -1,0 +1,72 @@
+edges:
+- partner_name: eduGAIN
+  partner: null
+  type: register
+  channel: standard-directory
+  relationship: network-participant
+  direction: partner-built
+  evidence: https://technical.edugain.org/api.php?action=list_entities&type=sp&format=json
+  category: research and education identity federation
+  contract_reference:
+    network: eduGAIN (GÉANT interfederation)
+    spec_file: null
+    roles:
+    - service-provider
+    role: service-provider
+    federations:
+    - INCOMMON
+    - OMREN
+    matched_by: domain+verified:oclc.org
+    entities:
+    - entity_id: https://masader.idm.oclc.org/shibboleth
+      role: service-provider
+      federation: OMREN
+      display_name: ezproxy
+      entity_categories: null
+      sirtfi: false
+      coco: true
+    - entity_id: https://shib.nat.oclc.org/oclcsaml-v1
+      role: service-provider
+      federation: INCOMMON
+      display_name: Online Computer Library Center Inc.
+      entity_categories:
+      - '43'
+      - '76'
+      sirtfi: true
+      coco: true
+    - entity_id: https://shib.nit.oclc.org/oclcsaml-v1
+      role: service-provider
+      federation: INCOMMON
+      display_name: Online Computer Library Center Inc.
+      entity_categories:
+      - '43'
+      - '76'
+      sirtfi: true
+      coco: true
+    - entity_id: https://shib.oclc.org/oclcsaml-v1
+      role: service-provider
+      federation: INCOMMON
+      display_name: Online Computer Library Center Inc.
+      entity_categories:
+      - '43'
+      - '76'
+      sirtfi: true
+      coco: true
+    - entity_id: https://shib.sbx.oclc.org/oclcsaml-v1
+      role: service-provider
+      federation: INCOMMON
+      display_name: Online Computer Library Center Inc.
+      entity_categories:
+      - '43'
+      - '76'
+      sirtfi: true
+      coco: true
+    detected_by: sweep-higher-ed.py
+    detected: '2026-10-15'
+  detected_by: sweep-higher-ed.py
+  first_seen: '2026-10-15'
+generated: '2026-10-15'
+method: searched
+checked:
+- https://technical.edugain.org/api.php?action=list_entities&type=idp&format=json
+- https://technical.edugain.org/api.php?action=list_entities&type=sp&format=json
